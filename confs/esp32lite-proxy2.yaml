@@ -45,12 +45,12 @@ uart:
 
   - id: uart_proxy
     rx_pin:
-      number: GPI025
+      number: GPIO25
       mode:
         input: true
         pullup: true
     tx_pin:
-      number: GPI031
+      number: GPIO21
       mode:
         output: true
     baud_rate: 9600
